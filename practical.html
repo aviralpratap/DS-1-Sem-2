@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Result Table</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background:#f4f6f9;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 70%;
+            margin: 40px auto;
+            background:white;
+        }
+
+        caption{
+            font-size: 24px;
+            font-weight: bold;
+            padding:10px;
+        }
+
+        th, td{
+            border:1px solid black;
+            padding:10px;
+            text-align:center;
+        }
+
+        th{
+            background:#4CAF50;
+            color:white;
+        }
+
+        tr:nth-child(even){
+            background:#f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+
+    <caption>School Result 2026</caption>
+
+    <!-- Header Row -->
+    <tr>
+        <th rowspan="2">Roll No</th>
+        <th rowspan="2">Name</th>
+        <th colspan="3">Marks</th>
+        <th rowspan="2">Total</th>
+    </tr>
+
+    <!-- Subject Header -->
+    <tr>
+        <th>Math</th>
+        <th>Science</th>
+        <th>English</th>
+    </tr>
+
+    <!-- Student rows -->
+    <tr>
+        <td>1</td>
+        <td>Rahul</td>
+        <td>85</td>
+        <td>78</td>
+        <td>90</td>
+        <td>253</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Anita</td>
+        <td>88</td>
+        <td>92</td>
+        <td>81</td>
+        <td>261</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
